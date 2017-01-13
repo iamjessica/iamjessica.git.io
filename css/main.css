@@ -61,6 +61,7 @@ body {
 }
 .height{
 	height: 100vh;
+	max-width: 75%
 }
 
 .underline {
@@ -108,7 +109,6 @@ li {
 .hero {
 	padding: 15em 0;
 	text-align: center;
-	max-width: 75%;
 	margin: 0 auto;
 }
 
@@ -117,7 +117,6 @@ li {
 .about {
 	padding: 10em 0;
 	text-align: justify;
-	max-width: 75%;
 	margin: 0 auto;
 }
 
@@ -126,7 +125,6 @@ li {
 .websites {
 	padding: 7em 0;
 	text-align: center;
-	max-width: 75%;
 	margin: 0 auto
 }
 
@@ -140,7 +138,6 @@ li {
 .projects {
 	padding: 7em 0;
 	text-align: center;
-	max-width: 75%;
 	margin: 0 auto;
 }
 
@@ -149,7 +146,6 @@ li {
 .contact {
 	padding: 10em 0;
 	text-align: center;
-	max-width: 75%;
 	margin: 0 auto;
 }
 
@@ -157,15 +153,15 @@ li {
 .resume {
 	padding: 7em 0;
 	text-align: center;
-	max-width: 75%;
 	margin: 0 auto;
 }
 
 
 
 
+
 /*media queries*/
-@media (max-width: 971px) {
+/*@media (max-width: 971px) {
 	ul {
 		padding: 0;
 		margin: 0;
@@ -178,17 +174,15 @@ li {
 }
 
 @media (max-width: 480px) {
-	body {
-		font-size: .6em;
-	}
+	
 	.wrapper {
 		text-align: center;
 	}
 
 	li{
-		0 1.5em;
+	padding: 0 1.5em;
 	}
-	
+
 	.websites {
 		padding: 14em 0 0 0;
 	}
@@ -207,9 +201,7 @@ li {
 }
 
 @media (max-width: 320px) {
-	body {
-		font-size: .5em;
-	}
+	
 	.wrapper {
 		text-align: center;
 	}
@@ -218,4 +210,33 @@ li {
 		padding: 0 1em 0 0;
 	}
 	
+}
+
+@media (max-width: )
+*/
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (max-width: 375px),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (max-width: 375px),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (max-width: 375px),
+only screen and (        min-device-pixel-ratio: 2)      and (max-width: 375px),
+only screen and (                min-resolution: 192dpi) and (max-width: 375px),
+only screen and (                min-resolution: 2dppx)  and (max-width: 3275px) { 
+	body {
+		font-size: 1.4em;
+	}
+	.height {
+		max-width: 90%
+	}
+	.wrapper {
+		text-align: center;
+	}
+	ul {
+		display: block;
+		float: none;
+		margin: auto;
+		padding: 1em 0 0 1em;
+		background: #ffffff
+	}
+
 }
