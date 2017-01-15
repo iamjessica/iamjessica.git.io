@@ -1,0 +1,196 @@
+/*Page Layout rules*/
+
+body {
+	text-align: center;
+	}
+
+.content {
+	max-width: 90%;
+	margin: auto;
+	padding: 2em 0;
+	height:100vh;
+}
+.none {
+	display: none;
+}
+.underline {
+	text-decoration: underline;
+}
+
+/*Fonts*/
+
+html {font-size: 1rem;}
+
+body {
+	background-color: #ffffff;
+	font-family: 'Arvo', serif;
+	font-weight: 400;
+	line-height: 1.45;
+	color: #000;
+}
+
+p {margin-bottom: 1.3rem;}
+
+h1, h2, h3, h4 {
+	margin: 1.414em 0 0.5rem;
+	font-weight: inherit;
+	line-height: 1.2;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 3.998rem;
+}
+
+h2 {font-size: 2.827rem;}
+
+h3 {font-size: 1.999rem;}
+
+h4 {font-size: 1.414rem;}
+
+small, .font_small {font-size: 0.707rem;}
+
+
+/*links*/
+a:link{
+	color: #000;
+	text-decoration: none;
+}
+a:visited{
+	color: #000;
+	text-decoration: none;
+}
+a:active {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: underline;
+}
+.logo a:hover {
+    text-decoration: none;
+}
+
+/*Header*/
+header {
+	width: 100%;
+	background: #ffffff;
+	margin: auto;
+	position: fixed;
+}
+.wrapper {
+	width: 95%;
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 2px;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	width: 90%;
+	position: fixed;
+	background: #fff;
+}
+
+nav li {
+	display: inline-block;
+	text-align: center;
+	background: #fff;
+}
+
+.aboutImage {
+	border-radius: 50%;
+	width: 50%;
+	display: block;
+	margin: auto;
+}
+
+#websiteImage {
+	max-width: 100%;
+}
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 799px){
+	.none {
+		display: inherit;
+	}
+	.content {
+		padding: 10em 0;
+	}
+}
+@media only screen 
+and (min-width : 800px) 
+and (max-width : 2000px){
+
+	html {
+		font-size: 1rem;
+	}
+	body{
+		line-height: 1.45;
+		text-align: center;
+	}
+	.content {
+	padding: 15em 0;
+	max-width: 75%
+}
+	#lessContent{
+ 	padding: 12em 0;
+ }
+	header {
+		padding: .25rem;
+		position: fixed;
+	}
+	.wrapper {
+		width: 75%;
+		text-align: left;
+		display: block;
+		margin: auto;
+	}
+	.none {
+		display: initial;
+	}
+
+	nav{
+		display: inline-block;
+		float: right;
+	}
+	nav ul {
+		justify-content: initial;
+		width: initial;
+		float: right;
+		display: inline;
+		position: initial;
+		padding: 0;
+		margin: 3em 0;
+	}
+	nav ul li {
+		line-height: 48px;
+		padding: 0 0 0 2em;
+		display: inline-block;
+	}
+.logo {
+	display: inline-block;
+	padding: 0;
+	line-height: 48px; 
+}
+.hero h1 {
+	margin-bottom: 5rem;
+}
+.hero h3 {
+	font-size: 2.827em;
+}
+ .about {
+ 	text-align: justify;
+ }
+
+.aboutImage {
+	width: 20%;
+	float: left;
+	margin-right: 20px;
+}
+.contact{
+	text-align: left;
+}
+}
