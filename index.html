@@ -2,97 +2,74 @@
 <html>
 <head>
 	<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-TXS9L23');</script>
 <!-- End Google Tag Manager -->
-	<title>Jessica|Web Developer</title>
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<title>Jessica|Web Developer</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 </head>
 
 <body>
-	<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXS9L23"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-	<header>
-		<div class="wrapper">
-			<div class="none logo"><h3><a onclick="smoothScroll(document.getElementById('hero'));" href="#hero">Jessica Graham</a></h3></div>
+	
+		<header>
+			<h3 id="name"><a onclick="smoothScroll(document.getElementById('hero'));" href="#hero">Jessica Graham</a></h3>
+			<ul class="main-nav">
+				<li><a onclick="smoothScroll(document.getElementById('about'));" href="#about">About</a></li>
+				<li><a onclick="smoothScroll(document.getElementById('websites'));" href="#websites">Websites</a></li>
+				<li><a onclick="smoothScroll(document.getElementById('projects'));" href="#projects">Projects</a></li>
+				<li><a onclick="smoothScroll(document.getElementById('contact'));" href="#contact">Contact</a></li>	
+			</ul>
+		</header>
 
-			<nav>
-				<ul>
-					<li><a onclick="smoothScroll(document.getElementById('about'));" href="#about">About</a></li>
-					<li><a onclick="smoothScroll(document.getElementById('websites'));" href="#websites">Websites</a></li>
-					<li><a onclick="smoothScroll(document.getElementById('projects'));" href="#projects">Projects</a></li>
-					<li><a onclick="smoothScroll(document.getElementById('contact'));" href="#contact">Contact</a></li>	
-				</ul>
-			</nav>
-		</div>
-	</header>
+		<section id="hero" class="container">
+			<h1>Hi there, <wbr>I'm Jessica Graham</h1>
+			<h3>I am a web developer from New Zealand, on the pursuit to make a career out of my hobby and passion</h3>
+		</section>
 
+		<section id ="about" class="container">
+			<img class="about-image" src="images/about-image.jpg" alt="Image of Jessica Graham">
+			<div class=about-text>
+			<h2>Hi there,</h2>
+				<p>I am learning to code from home using courses online courses, books and public forums. Most of the time you will find me behind my laptop taking courses, working through coding books, experimenting and applying my new found skills on codepen. 
+				</p>
+				<p>When I'm not coding I enjoy running, reading, watching science documentaries and baking.</p>
+				<p>Some of the skills I am developing include HTML, CSS, JavaScript.</p>
+			</div>
+		</section>
 
+		<section id="websites" class="container">
+			<h3>Websites</h3>
+			<p>Colourist portfolio that I built and published</p>
+			<p><a href="https://www.hellojessica.co/colourist"><img  id="websiteImage" src="images/Screenshot.jpeg" alt="https://www.hellojessica.co/colourist"></a></p>
+			<p><a href="https://www.hellojessica.co/colourist">www.hellojessica.co/colourist</a></p>
+		</section>
 
+		<section id="projects" class="container">
+			<h3>Projects</h3>
+			<p>Here's a couple of my Javascript exercises, check out what I am learning on my <span class="underline"><a href="https://codepen.io/hellojessicagraham/pens/public">codepen</a></span></p>
 
-	<section id="hero" class="content hero">
+			<p data-height="250" data-theme-id="light" data-slug-hash="Ropgob" data-default-tab="js,result" data-user="hellojessicagraham" data-embed-version="2" data-pen-title="Using loops and functions to make random coloured dots exercise " class="codepen">See the Pen <a href="http://codepen.io/hellojessicagraham/pen/Ropgob/">Using loops and functions to make random coloured dots exercise </a> by Jessica Graham (<a href="http://codepen.io/hellojessicagraham">@hellojessicagraham</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+			<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+		</section>
 
-		<h1>Hi there, <wbr>I'm Jessica Graham</h1>
-		<h3 class="none">I am a web developer from New Zealand, on the pursuit to make a career out of my hobby and passion</h3>
-	</section>
+		<section id="contact" class="container">
+			<h3>Contact</h3>
+			<h4>Get in touch, I would love to hear from you</h4>
+			<p> You can call me or send me a message at <a href="tell:+64224716349">+64 224716349</a></p>
+			<p>Or if you'd prefer to email me, say hi at <a href="mailto:hellojessicagraham@gmail.com">hellojessicagraham@gmail.com</a></p>
+			<h3>Download my resume <span class="underline"><a href="resume/JessicaGrahamResumeforWebsite.pdf" download="jessicagrahamDeveloperResume">here</a></span></h3>
+		</section>
 
-<section id ="about" class="content  about">
-	<img class="aboutImage" src="images/aboutImage.jpg" alt="aboutImage">
-	<h2 class="none">Hi there,</h2>
-	<p>I am learning to code from home using courses online courses, books and public forums. Most of the time you will find me behind my laptop building a website, taking courses, working through books, or getting distracted by tech blogs. When I'm not coding I enjoy exploring by foot, reading, baking, eating Milky Ways and watching science documentaries.</p>
-	<p>Some of the skills I am developing include HTML, CSS, Bootstrap and JavaScript.</p>
-</section>
+		<script type="text/javascript" src="js/script.js"></script>
+		
 
-
-
-<section id="websites" class="lessContent content websites">
-	<h3>Websites</h3>
-	<p>Colourist portfolio that I built and published</p>
-	<p><a href="https://www.hellojessica.co/colourist"><img  id="websiteImage" src="images/Screenshot.jpeg" alt="https://www.hellojessica.co/colourist"></a></p>
-	<p><a href="https://www.hellojessica.co/colourist">www.hellojessica.co/colourist</a></p>
-
-</section>
-
-
-<section id="projects" class="lessContent content projects">
-	<h3>Projects</h3>
-	<p>Here's a couple of my Javascript exercises, check out what I am learning on my <span class="underline"><a href="https://codepen.io/hellojessicagraham/pens/public">codepen</a></span></p>
-
-	<p data-height="250" data-theme-id="light" data-slug-hash="Ropgob" data-default-tab="js,result" data-user="hellojessicagraham" data-embed-version="2" data-pen-title="Using loops and functions to make random coloured dots exercise " class="codepen">See the Pen <a href="http://codepen.io/hellojessicagraham/pen/Ropgob/">Using loops and functions to make random coloured dots exercise </a> by Jessica Graham (<a href="http://codepen.io/hellojessicagraham">@hellojessicagraham</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-	<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
-</section>
-
-<section id="contact" class="lessContent content contact">
-	<h3>Contact</h3>
-	<h4>Get in touch, I would love to hear from you</h4>
-	<p> You can call me or send me a message at <a href="tell:+64224716349">+64 224716349</a></p>
-	<p>Or if you'd prefer to email me, say hi at <a href="mailto:hellojessicagraham@gmail.com">hellojessicagraham@gmail.com</a></p>
-
-	<h3>Download my resume <span class="underline"><a href="resume/JessicaGrahamResumeforWebsite.pdf" download="jessicagrahamDeveloperResume">here</a></span></h3>
-</section>
-
-<script type="text/javascript" src="js/script.js"></script>
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	ga('create', 'UA-90324502-1', 'auto');
-	ga('send', 'pageview');
-
-</script>
-
-</body>
-</html>
+	</body>
+	</html>
