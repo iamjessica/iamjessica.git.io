@@ -137,6 +137,11 @@ and (min-width : 800px){
 		flex-direction: row;
 		justify-content: space-around;
 	}
+
+	#name {
+	margin: 0  1rem auto;
+}
+
 	
 	.container {
 		max-width: 75%;
